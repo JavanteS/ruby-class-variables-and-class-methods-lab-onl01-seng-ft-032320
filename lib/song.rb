@@ -35,7 +35,7 @@ class Song
   end
   
   def self.genres
-    @@genres = @@genres.unique
+   @@genres.unique
   end
   
   def self.genre_count
